@@ -5,6 +5,7 @@ import org.springframework.messaging.MessageChannel;
 
 public interface CheckoutCreatedSource {
 
+    //tópico-virtual -> configuracoes no application.yml
     String OUTPUT = "checkout-created-output";
 
     @Output(OUTPUT)

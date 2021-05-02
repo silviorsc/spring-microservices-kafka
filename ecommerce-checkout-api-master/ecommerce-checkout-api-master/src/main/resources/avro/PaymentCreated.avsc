@@ -1,6 +1,6 @@
 {
     "type": "record",
-    "name": "CheckoutCreatedEvent",
+    "name": "PaymentCreatedEvent",
     "namespace": "com.hatanaka.ecommerce.checkout.event",
     "fields": [
         {
@@ -8,8 +8,12 @@
             "type": ["string"]
         },
         {
-             "name": "status",
-              "type": ["string"]
-         }
+            "name": "chekoutStatus",
+            "type": ["string"]
+        },
+        {
+            "name": "paymentCode",
+            "type": ["string"]
+        }
     ]
 }
